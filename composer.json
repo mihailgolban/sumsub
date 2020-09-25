@@ -1,0 +1,22 @@
+{
+    "name": "mihailgolban/sumsub",
+    "description": "PHP client library for accessing the Sum&Substance's API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mihail Golban",
+            "email": "mihailgolban91@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "guzzlehttp/guzzle": "^7.1",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sumsub\\": "src/Sumsub"
+        }
+    }
+}
